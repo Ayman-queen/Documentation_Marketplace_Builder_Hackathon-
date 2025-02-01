@@ -1,0 +1,6 @@
+Test Case ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity Level,Assigned To,Remarks
+TC001,Verify product listing,"Open homepage, check product list",Products should be displayed,Products displayed correctly,Passed,Low,Tester1,Works fine
+TC002,Check search functionality,Enter a keyword in search bar,Relevant products should appear,No products displayed,Failed,High,Developer1,Needs fixing
+TC003,Cart operations,"Add item to cart, remove it",Item should be added and removed successfully,Item added but not removed,Failed,Medium,Developer2,Remove function issue
+TC004,Error handling for API failure,"Disconnect internet, refresh page",User should see an error message,Error message displayed correctly,Passed,Low,Tester2,Handled well
+TC005,Cross-browser compatibility,"Open site in Chrome, Firefox, Edge",Site should work the same,Works fine on all browsers,Passed,Low,Tester3,No issues found
